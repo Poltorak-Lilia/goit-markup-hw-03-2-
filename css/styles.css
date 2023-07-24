@@ -336,6 +336,7 @@ ol {
 .text-subtitle {
   padding: 32px 16px;
   border-top: none;
+  border: 1px solid #e7e9fc;
 }
 
 img {
