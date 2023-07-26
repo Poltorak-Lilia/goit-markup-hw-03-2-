@@ -53,6 +53,7 @@ ol {
 .header-navigation {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .header-list {
   display: flex;
@@ -61,7 +62,6 @@ ol {
 .header-container {
   display: flex;
   align-items: center;
-  gap: 300px;
 }
 .header-logo {
   color: var(--logo-text-color);
@@ -170,7 +170,6 @@ ol {
 .advantages-list {
   display: flex;
   gap: 24px;
-  padding: 120px 0;
 }
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -186,7 +185,6 @@ ol {
 .advantages-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 120px 0;
 }
 /* doing */
 .doing {
@@ -265,7 +263,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-right: 76px;
+
   display: inline-block;
   margin-bottom: 16px;
 }
